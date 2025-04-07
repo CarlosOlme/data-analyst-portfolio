@@ -21,6 +21,6 @@ Análisis interactivo de ventas y rentabilidad (2012-2015) para:
 - 🏆 **Mejor producto**: *"Copiers"* (18.9% margen)
 
 ## 🖥️ Cómo Explorar el Proyecto
-1. Descargar [`SalesReport.pbix`](/powerbi/)
+1. Descargar [`SalesReport.pbix`](powerbi/)
 2. Ver [methodology](/docs/) para detalles de DAX y ETL
 3. Explorar [video demo](/outputs/demo.mp4)

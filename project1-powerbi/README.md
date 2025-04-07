@@ -1,6 +1,6 @@
 # 📊 Sales Analytics Dashboard 
 
-![Dashboard Preview](outputs/dashboard_summary.png)
+![Dashboard Preview](outputs/Dashboard_Summary.JPG)
 
 ## 🎯 Objetivo
 Análisis interactivo de ventas y rentabilidad (2012-2015) para:

@@ -73,23 +73,23 @@ Menú desplegable para filtrado de gráficos
 
 **Crecimiento Anual**
 
-- Mayor crecimiento en 2013: +32.4% beneficios vs 2012
-- En 2014 (último registro):
-  -Beneficios: +23.9% vs 2013
-  -Ventas: +26.6% vs 2013
-- Tendencia: Crecimiento anual consistente
+Mayor crecimiento en 2013: +32.4% beneficios vs 2012
+En 2014 (último registro):
+  - Beneficios: +23.9% vs 2013
+  - Ventas: +26.6% vs 2013
+**Tendencia:** Crecimiento anual consistente
 
 **Mercados**
 
 Top 2014:
-1. APAC: 
-2. EU: 
+- 1. APAC: 
+- 2. EU: 
 
-- Mayor margen: Canadá (aunque con menores ventas)
+-Mayor margen: Canadá (aunque con menores ventas)
 
 **Productos**
 
-- Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
+Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
 
 **Top performer:**
 

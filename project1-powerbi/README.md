@@ -1,6 +1,10 @@
 # 📊 Sales Analytics Dashboard 
+ 
+![Vista resumen del dashboard](outputs/Dashboard_Summary.JPG)  
+*Dashboard interactivo con KPIs anuales y comparativa por mercados*
 
-![Dashboard Preview](outputs/Dashboard_Summary.JPG)
+🔍 **Explorar vistas detalladas**:  
+[Products](outputs/Dashboard_Products.JPG) | [Logistics](outputs/Dashboard_Logistics.JPG) | [Filtros](outputs/Dashboard_filtering.JPG)
 
 ## 🎯 Objetivo
 Análisis interactivo de ventas y rentabilidad (2012-2015) para:

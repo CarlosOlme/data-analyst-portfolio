@@ -40,7 +40,7 @@ Análisis detallado del **crecimiento** de la empresa para detectar mejoras y de
 
 -**Objetivo:** Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
 
-Profit Growth % Improved = 
+`Profit Growth % Improved = 
 VAR ProfitCurrent = SUM('Global-Superstore'[Profit])
 VAR ProfitPrevious = [Profit PY]
 VAR Growth = DIVIDE(ProfitCurrent - ProfitPrevious, ProfitPrevious, BLANK())
@@ -53,15 +53,15 @@ RETURN
             FORMAT(Growth, "+0.0%"),  
             FORMAT(Growth, "-0.0%")   
         )
-    )
+    )`
     
 -**Objetivo:** Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
 
 ### **4. Visualización**
 
--Summary (Página 1): Visión general con KPIs (Ventas, margen, costes, unidades) + comparativa interanual
--Products (Página 2): Análisis por categorías/sub-categorías (ventas, margen, costes)
--Logistics (Página 3): Análisis por mercados/países + ventas por prioridad de pedido
+- Summary (Página 1): Visión general con KPIs (Ventas, margen, costes, unidades) + comparativa interanual
+- Products (Página 2): Análisis por categorías/sub-categorías (ventas, margen, costes)
+- Logistics (Página 3): Análisis por mercados/países + ventas por prioridad de pedido
 
 # **Interfaz Avanzada**
 
@@ -73,11 +73,11 @@ Menú desplegable para filtrado de gráficos
 
 **Crecimiento Anual**
 
--Mayor crecimiento en 2013: +32.4% beneficios vs 2012
--En 2014 (último registro):
+- Mayor crecimiento en 2013: +32.4% beneficios vs 2012
+- En 2014 (último registro):
   -Beneficios: +23.9% vs 2013
   -Ventas: +26.6% vs 2013
--Tendencia: Crecimiento anual consistente
+- Tendencia: Crecimiento anual consistente
 
 **Mercados**
 
@@ -85,13 +85,13 @@ Top 2014:
 1. APAC: 
 2. EU: 
 
--Mayor margen: Canadá (aunque con menores ventas)
+- Mayor margen: Canadá (aunque con menores ventas)
 
 **Productos**
 
--Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
+- Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
 
 **Top performer:**
 
--Categoría "Technology" ($234,928 beneficio)
--Subcategoría "Copiers" ($104,049 beneficio, 18.9% margen)
+- Categoría "Technology" ($234,928 beneficio)
+- Subcategoría "Copiers" ($104,049 beneficio, 18.9% margen)

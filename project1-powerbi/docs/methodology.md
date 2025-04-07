@@ -9,10 +9,6 @@ Analizar los beneficios y las ventas:
 **Comparación** año a año de las ventas, costes, beneficio y unidades vendidas
 Análisis detallado del **crecimiento** de la empresa para detectar mejoras y deterioro en mercados y productos.
 
-## **Dashboard**
-
-
-
 ## **Herramientas**
 - **Power Query**: Transformación y limpieza de datos
 - **DAX**: Medidas como `Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)`
@@ -63,7 +59,7 @@ RETURN
 - Products (Página 2): Análisis por categorías/sub-categorías (ventas, margen, costes)
 - Logistics (Página 3): Análisis por mercados/países + ventas por prioridad de pedido
 
-# **Interfaz Avanzada**
+**Interfaz Avanzada**
 
 Botones para selección de año
 Índice accesible

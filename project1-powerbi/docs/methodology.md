@@ -78,10 +78,14 @@ En 2014 (último registro):
 **Mercados**
 
 Top 2014:
-- 1.APAC: 
-- 2.EU: 
+- APAC:
+    -Ventas: $1.209.199
+    -Beneficio: $140.454
+- EU:
+    -Ventas: $1.042.204
+    -Beneficio: $128.944
 
--Mayor margen: Canadá (aunque con menores ventas)
+Mayor margen: Canadá (aunque con menores ventas)
 
 **Productos**
 
@@ -89,5 +93,5 @@ Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
 
 **Top performer:**
 
-- Categoría "Technology" ($234,928 beneficio)
-- Subcategoría "Copiers" ($104,049 beneficio, 18.9% margen)
+- Categoría "Technology" ($234.928 beneficio)
+- Subcategoría "Copiers" ($104.049 beneficio, 18.9% margen)

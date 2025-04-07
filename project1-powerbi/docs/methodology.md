@@ -33,10 +33,12 @@ Análisis detallado del **crecimiento** de la empresa para detectar mejoras y de
 ### **3. Medidas DAX (Análisis Avanzado)**
 
 Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)
--Objetivo: Obtener el porcentaje de beneficio respecto al coste
+
+Objetivo: Obtener el porcentaje de beneficio respecto al coste
 
 Profit PY = CALCULATE(SUM('Global-Superstore'[Profit]), SAMEPERIODLASTYEAR('DateTable'[Date]))
--Objetivo: Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
+
+Objetivo: Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
 
 Profit Growth % Improved = 
 VAR ProfitCurrent = SUM('Global-Superstore'[Profit])
@@ -52,7 +54,8 @@ RETURN
             FORMAT(Growth, "-0.0%")   
         )
     )
--Objetivo: Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
+    
+Objetivo: Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
 
 ### **4. Visualización**
 

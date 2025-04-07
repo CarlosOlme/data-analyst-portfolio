@@ -31,16 +31,16 @@ Análisis detallado del **crecimiento** de la empresa para detectar mejoras y de
 - **Jerarquías**: Creé una jerarquía "Date Jerarquía": Año -> Mes
 
 ### **3. Medidas DAX (Análisis Avanzado)**
-```dax
-Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)
 
--Objetivo: Obtener el porcentaje de beneficio respecto al coste
+`Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)`
 
-Profit PY = CALCULATE(SUM('Global-Superstore'[Profit]), SAMEPERIODLASTYEAR('DateTable'[Date]))
+-**Objetivo:** Obtener el porcentaje de beneficio respecto al coste
 
--Objetivo: Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
+`Profit PY = CALCULATE(SUM('Global-Superstore'[Profit]), SAMEPERIODLASTYEAR('DateTable'[Date]))`
 
-Profit Growth % Improved = 
+-**Objetivo:** Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
+
+`Profit Growth % Improved = 
 VAR ProfitCurrent = SUM('Global-Superstore'[Profit])
 VAR ProfitPrevious = [Profit PY]
 VAR Growth = DIVIDE(ProfitCurrent - ProfitPrevious, ProfitPrevious, BLANK())
@@ -53,9 +53,9 @@ RETURN
             FORMAT(Growth, "+0.0%"),  
             FORMAT(Growth, "-0.0%")   
         )
-    )
+    )`
     
--Objetivo: Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
+-**Objetivo:** Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
 
 ### **4. Visualización**
 

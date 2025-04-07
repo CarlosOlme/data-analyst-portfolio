@@ -15,7 +15,7 @@ Análisis detallado del **crecimiento** de la empresa para detectar mejoras y de
 
 ## **Herramientas**
 - **Power Query**: Transformación y limpieza de datos
-- **DAX**: Medidas como `Ventas YTD = TOTALYTD([Ventas], 'Fecha'[Fecha])`
+- **DAX**: Medidas como `Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)`
 - **Excel y Python**: Integración de de los datos
 
 ## **Pasos Clave**
@@ -31,7 +31,7 @@ Análisis detallado del **crecimiento** de la empresa para detectar mejoras y de
 - **Jerarquías**: Creé una jerarquía "Date Jerarquía": Año -> Mes
 
 ### **3. Medidas DAX (Análisis Avanzado)**
-
+```dax
 Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)
 
 -Objetivo: Obtener el porcentaje de beneficio respecto al coste

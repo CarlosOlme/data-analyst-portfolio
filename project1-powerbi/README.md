@@ -14,10 +14,11 @@ Análisis interactivo de ventas y rentabilidad (2011-2014) para:
 ## 🔧 Herramientas
 | Tecnología | Uso |
 |------------|-----|
-| Power BI | Visualización y modelado |
-| Power Query | Limpieza de datos |
-| DAX | Métricas avanzadas (`Margin`, `Profit Growth`) |
 | Excel y Python | Eliminación de columnas con información sensible |
+| Power Query | Limpieza de datos |
+| Power BI | Visualización y modelado |
+| DAX | Métricas avanzadas (`Margin`, `Profit Growth`) |
+
 ## 💡 Insights Clave
 - 📈 **Crecimiento**: +23.9% beneficios en 2014 vs 2013
 - 🌎 **Top mercado**: APAC ($1.2M ventas / $140K beneficio)

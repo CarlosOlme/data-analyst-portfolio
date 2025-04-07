@@ -34,11 +34,11 @@ Análisis detallado del **crecimiento** de la empresa para detectar mejoras y de
 
 Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)
 
-Objetivo: Obtener el porcentaje de beneficio respecto al coste
+-Objetivo: Obtener el porcentaje de beneficio respecto al coste
 
 Profit PY = CALCULATE(SUM('Global-Superstore'[Profit]), SAMEPERIODLASTYEAR('DateTable'[Date]))
 
-Objetivo: Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
+-Objetivo: Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
 
 Profit Growth % Improved = 
 VAR ProfitCurrent = SUM('Global-Superstore'[Profit])
@@ -55,7 +55,7 @@ RETURN
         )
     )
     
-Objetivo: Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
+-Objetivo: Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
 
 ### **4. Visualización**
 
@@ -63,11 +63,11 @@ Objetivo: Mostrar crecimiento interanual con formato +/- (también implementado 
 -Products (Página 2): Análisis por categorías/sub-categorías (ventas, margen, costes)
 -Logistics (Página 3): Análisis por mercados/países + ventas por prioridad de pedido
 
-## **Interfaz Avanzada**
+# **Interfaz Avanzada**
 
--Botones para selección de año
--Índice accesible
--Menú desplegable para filtrado de gráficos
+Botones para selección de año
+Índice accesible
+Menú desplegable para filtrado de gráficos
 
 ### **5. Insights**
 
@@ -82,8 +82,8 @@ Objetivo: Mostrar crecimiento interanual con formato +/- (también implementado 
 **Mercados**
 
 Top 2014:
--1. APAC: 
--2. EU: 
+1. APAC: 
+2. EU: 
 
 -Mayor margen: Canadá (aunque con menores ventas)
 

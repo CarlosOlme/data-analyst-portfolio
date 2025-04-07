@@ -78,8 +78,8 @@ En 2014 (último registro):
 **Mercados**
 
 Top 2014:
-- 1. APAC: 
-- 2. EU: 
+- 1.APAC: 
+- 2.EU: 
 
 -Mayor margen: Canadá (aunque con menores ventas)
 

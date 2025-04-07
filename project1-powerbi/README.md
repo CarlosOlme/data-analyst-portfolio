@@ -28,4 +28,3 @@ Análisis interactivo de ventas y rentabilidad (2011-2014) para:
 ## 🖥️ Cómo Explorar el Proyecto
 1. Descargar [`SalesReport.pbix`](powerbi/)
 2. Ver [methodology](docs/) para detalles de DAX y ETL
-3. Explorar [video demo](/outputs/demo.mp4)

@@ -2,12 +2,13 @@
 
 ## **Objetivo**
 
-Mostrar un resumen anual y mensual de las compras, ventas, beneficios y unidades vendidas de la empresa.
-Analizar los beneficios y las ventas:
-- **Por mercado/país**: Detectar la rentabilidad de cada área y posibilidades de negocio
-- **Por categoría/sub-categoría**: Localizar sectores mejorables y adaptar las campañas de marketing según los intereses
-**Comparación** año a año de las ventas, costes, beneficio y unidades vendidas
-Análisis detallado del **crecimiento** de la empresa para detectar mejoras y deterioro en mercados y productos.
+- Mostrar un resumen anual y mensual de las compras, ventas, beneficios y unidades vendidas de la empresa  
+- Analizar los beneficios y las ventas:    
+    - **Por mercado/país**: Detectar la rentabilidad de cada área y posibilidades de negocio   
+    - **Por categoría/sub-categoría**: Localizar sectores mejorables y adaptar las campañas de marketing según los intereses
+
+- **Comparación** año a año de las ventas, costes, beneficio y unidades vendidas      
+- Análisis detallado del **crecimiento** de la empresa para detectar mejoras y deterioro en mercados y productos
 
 ## **Herramientas**
 - **Power Query**: Transformación y limpieza de datos
@@ -61,37 +62,37 @@ RETURN
 
 **Interfaz Avanzada**
 
-Botones para selección de año
-Índice accesible
-Menú desplegable para filtrado de gráficos
+- Botones para selección de año
+- Índice accesible
+- Menú desplegable para filtrado de gráficos
 
 ### **5. Insights**
 
-**Crecimiento Anual**
+#### **Crecimiento Anual**
 
-Mayor crecimiento en 2013: +32.4% beneficios vs 2012
-En 2014 (último registro):
+- Mayor crecimiento en 2013: +32.4% beneficios vs 2012
+- En 2014 (último registro):
   - Beneficios: +23.9% vs 2013
   - Ventas: +26.6% vs 2013
-**Tendencia:** Crecimiento anual consistente
+- **Tendencia:** Crecimiento anual consistente
 
-**Mercados**
+#### **Mercados**
 
-Top 2014:
-- APAC:
-    -Ventas: $1.209.199
-    -Beneficio: $140.454
-- EU:
-    -Ventas: $1.042.204
-    -Beneficio: $128.944
+- Top 2014:
+    - APAC:
+        - Ventas: $1.209.199
+        - Beneficio: $140.454
+    - EU:
+        - Ventas: $1.042.204
+        - Beneficio: $128.944
 
-Mayor margen: Canadá (aunque con menores ventas)
+- Mayor margen: Canadá (aunque con menores ventas)
 
-**Productos**
+#### **Productos**
 
-Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
+- Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
 
-**Top performer:**
+#### **Top performer:**
 
 - Categoría "Technology" ($234.928 beneficio)
 - Subcategoría "Copiers" ($104.049 beneficio, 18.9% margen)

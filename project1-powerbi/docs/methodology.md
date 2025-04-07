@@ -40,7 +40,7 @@ Análisis detallado del **crecimiento** de la empresa para detectar mejoras y de
 
 -**Objetivo:** Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
 
-`Profit Growth % Improved = 
+Profit Growth % Improved = 
 VAR ProfitCurrent = SUM('Global-Superstore'[Profit])
 VAR ProfitPrevious = [Profit PY]
 VAR Growth = DIVIDE(ProfitCurrent - ProfitPrevious, ProfitPrevious, BLANK())
@@ -53,7 +53,7 @@ RETURN
             FORMAT(Growth, "+0.0%"),  
             FORMAT(Growth, "-0.0%")   
         )
-    )`
+    )
     
 -**Objetivo:** Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
 

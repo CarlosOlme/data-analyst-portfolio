@@ -1,7 +1,7 @@
 # 📊 Sales Analytics Dashboard 
  
 ![Vista resumen del dashboard](outputs/Dashboard_Summary.JPG)  
-*Dashboard interactivo con KPIs anuales y comparativa por mercados*
+*Dashboard interactivo con KPIs anuales*
 
 🔍 **Explorar vistas detalladas**:  
 [Products](outputs/Dashboard_Products.JPG) | [Logistics](outputs/Dashboard_Logistics.JPG) | [Filtros](outputs/Dashboard_filtering.JPG)

@@ -1,30 +1,30 @@
-# 📊 Sales Analytics Dashboard 
- 
-![Vista resumen del dashboard](outputs/Dashboard_Summary.JPG)  
-*Dashboard interactivo con KPIs anuales*
+# 📊 Sales Analytics Dashboard  
 
-🔍 **Explorar vistas detalladas**:  
-[Products](outputs/Dashboard_Products.JPG) | [Logistics](outputs/Dashboard_Logistics.JPG) | [Filtros](outputs/Dashboard_filtering.JPG)
+![Dashboard Overview](outputs/Dashboard_Summary.JPG)  
+*Interactive dashboard with annual KPIs*
 
-## 🎯 Objetivo
-Análisis interactivo de ventas y rentabilidad (2011-2014) para:
-- Identificar mercados y categorías más rentables
-- Detectar oportunidades de mejora (ej: pérdidas en "Tables")
+🔍 **Explore Detailed Views**:  
+[Products](outputs/Dashboard_Products.JPG) | [Logistics](outputs/Dashboard_Logistics.JPG) | [Filters](outputs/Dashboard_filtering.JPG)
 
-## 🔧 Herramientas
-| Tecnología | Uso |
-|------------|-----|
-| Excel y Python | Eliminación de columnas con información sensible |
-| Power Query | Limpieza de datos |
-| Power BI | Visualización y modelado |
-| DAX | Métricas avanzadas (`Margin`, `Profit Growth`) |
+## 🎯 Objective
+Interactive sales and profitability analysis (2011-2014) to:
+- Identify most profitable markets and categories
+- Detect improvement opportunities (e.g., losses in "Tables")
 
-## 💡 Insights Clave
-- 📈 **Crecimiento**: +23.9% beneficios en 2014 vs 2013
-- 🌎 **Top mercado**: APAC ($1.2M ventas / $140K beneficio)
-- ⚠️ **Alerta**: Subcategoría *"Tables"* con pérdidas del 12.5%
-- 🏆 **Mejor producto**: *"Copiers"* (18.9% margen)
+## 🔧 Tools
+| Technology | Usage |
+|------------|-------|
+| Excel & Python | Removal of sensitive data columns |
+| Power Query | Data cleaning |
+| Power BI | Visualization and modeling |
+| DAX | Advanced metrics (`Margin`, `Profit Growth`) |
 
-## 🖥️ Cómo Explorar el Proyecto
-1. Descargar [`SalesReport.pbix`](powerbi/)
-2. Ver [methodology](docs/) para detalles de DAX y ETL
+## 💡 Key Insights
+- 📈 **Growth**: +23.9% profits in 2014 vs 2013
+- 🌎 **Top Market**: APAC ($1.2M sales / $140K profit)
+- ⚠️ **Alert**: *"Tables"* subcategory with 12.5% losses
+- 🏆 **Best Product**: *"Copiers"* (18.9% margin)
+
+## 🖥️ How to Explore
+1. Download [`SalesReport.pbix`](powerbi/)
+2. View [methodology](docs/) for DAX and ETL details

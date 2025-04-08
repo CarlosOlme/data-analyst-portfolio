@@ -1,10 +1,10 @@
 # 📊 Sales Analytics Dashboard  
 
-![Dashboard Overview](outputs/Dashboard_Summary.JPG)  
+![Dashboard Overview](../../outputs/Dashboard_Summary.JPG)  
 *Interactive dashboard with annual KPIs*
 
 🔍 **Explore Detailed Views**:  
-[Products](outputs/Dashboard_Products.JPG) | [Logistics](outputs/Dashboard_Logistics.JPG) | [Filters](outputs/Dashboard_filtering.JPG)
+[Products](../../outputs/Dashboard_Products.JPG) | [Logistics](../../outputs/Dashboard_Logistics.JPG) | [Filters](../../outputs/Dashboard_filtering.JPG)
 
 ## 🎯 Objective
 Interactive sales and profitability analysis (2011-2014) to:

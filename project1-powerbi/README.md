@@ -2,8 +2,8 @@
 
 Selecciona tu idioma / Select your language:
 
-- [English Version](/docs/en/README.md) 🇬🇧  
-- [Versión en español](/docs/es/README.md) 🇪🇸  
+- [English Version](/project1-powerbi/docs/en/README.md) 🇬🇧  
+- [Versión en español](/project1-powerbi/docs/es/README.md) 🇪🇸  
 
 ---
 

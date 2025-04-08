@@ -1,41 +1,41 @@
-# 📝 Proceso Técnico Completo
+# 📝 Complete Technical Process
 
-## **Objetivo**
+## **Objective**
 
-- Mostrar un resumen anual y mensual de las compras, ventas, beneficios y unidades vendidas de la empresa  
-- Analizar los beneficios y las ventas:    
-    - **Por mercado/país**: Detectar la rentabilidad de cada área y posibilidades de negocio   
-    - **Por categoría/sub-categoría**: Localizar sectores mejorables y adaptar las campañas de marketing según los intereses
+- Display annual and monthly summaries of purchases, sales, profits, and units sold  
+- Analyze profits and sales:  
+    - **By market/country**: Identify profitability per region and business opportunities  
+    - **By category/subcategory**: Locate areas for improvement and adapt marketing campaigns  
 
-- **Comparación** año a año de las ventas, costes, beneficio y unidades vendidas      
-- Análisis detallado del **crecimiento** de la empresa para detectar mejoras y deterioro en mercados y productos
+- **Year-over-year comparison** of sales, costs, profit, and units sold  
+- Detailed analysis of business **growth** to detect improvements/declines in markets and products  
 
-## **Herramientas**
-- **Power Query**: Transformación y limpieza de datos
-- **DAX**: Medidas como `Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)`
-- **Excel y Python**: Integración de de los datos
+## **Tools**  
+- **Power Query**: Data transformation and cleaning  
+- **DAX**: Measures like `Margin = DIVIDE([SUM_Profit],[SUM_Sales],0)`  
+- **Excel & Python**: Data integration  
 
-## **Pasos Clave**
+## **Key Steps**  
 
-### **1. Limpieza de Datos (Power Query)**
-- Cambié los tipos de datos de las columnas ventas, beneficio y coste de envío mediante la configuración regional de moneda a dólar (base de datos estadounidense)
-- Cambié los tipos de datos de Order date y Ship date de texto a fecha usando configuración regional estadounidense
-- Creé la columna calculada coste a partir de la resta de beneficio y ventas
-- Eliminé columnas con datos innecesarios (código postal)
+### **1. Data Cleaning (Power Query)**  
+- Changed data types for sales, profit, and shipping cost columns to USD currency (US regional settings)  
+- Converted Order Date and Ship Date from text to date using US regional format  
+- Created calculated column: `Cost = Sales - Profit`  
+- Removed unnecessary columns (postal code)  
 
-### **2. Modelado de Datos**
-- **Relaciones**: Establecí una relación 1:* entre "DateTable" y "Global-Superstore[Order Date]"
-- **Jerarquías**: Creé una jerarquía "Date Jerarquía": Año -> Mes
+### **2. Data Modeling**  
+- **Relationships**: Established 1:* relationship between "DateTable" and "Global-Superstore[Order Date]"  
+- **Hierarchies**: Created "Date Hierarchy": Year → Month  
 
-### **3. Medidas DAX (Análisis Avanzado)**
+### **3. DAX Measures (Advanced Analysis)**  
 
-`Margin = DIVIDE([SUM_Profit],[SUM_Ventas],0)`
+`Margin = DIVIDE([SUM_Profit],[SUM_Sales],0)`  
 
--**Objetivo:** Obtener el porcentaje de beneficio respecto al coste
+- **Purpose**: Calculate profit margin relative to cost  
 
-`Profit PY = CALCULATE(SUM('Global-Superstore'[Profit]), SAMEPERIODLASTYEAR('DateTable'[Date]))`
+`Profit PY = CALCULATE(SUM('Global-Superstore'[Profit]), SAMEPERIODLASTYEAR('DateTable'[Date]))`  
 
--**Objetivo:** Calcular el beneficio del año anterior (también creada para "Cost", "Sales" y "Quantity"
+- **Purpose**: Calculate prior year profit (also created for "Cost", "Sales", and "Quantity")  
 
 `Profit Growth % Improved = 
 VAR ProfitCurrent = SUM('Global-Superstore'[Profit])
@@ -50,49 +50,42 @@ RETURN
             FORMAT(Growth, "+0.0%"),  
             FORMAT(Growth, "-0.0%")   
         )
-    )`
-    
--**Objetivo:** Mostrar crecimiento interanual con formato +/- (también implementado para "Cost", "Sales" y "Quantity")
+    )`  
 
-### **4. Visualización**
+- **Purpose**: Display YoY growth with +/- formatting (also implemented for "Cost", "Sales", "Quantity")  
 
-- Summary (Página 1): Visión general con KPIs (Ventas, margen, costes, unidades) + comparativa interanual
-- Products (Página 2): Análisis por categorías/sub-categorías (ventas, margen, costes)
-- Logistics (Página 3): Análisis por mercados/países + ventas por prioridad de pedido
+### **4. Visualization**  
 
-**Interfaz Avanzada**
+- **Summary (Page 1)**: Overview with KPIs (Sales, Margin, Costs, Units) + YoY comparison  
+- **Products (Page 2)**: Analysis by categories/subcategories (sales, margin, costs)  
+- **Logistics (Page 3)**: Market/country analysis + sales by order priority  
 
-- Botones para selección de año
-- Índice accesible
-- Menú desplegable para filtrado de gráficos
+**Advanced Interface**  
+- Year selection buttons  
+- Accessible index  
+- Dropdown filters for charts  
 
-### **5. Insights**
+### **5. Insights**  
 
-#### **Crecimiento Anual**
+#### **Annual Growth**  
+- Highest growth in 2013: +32.4% profit vs 2012  
+- In 2014 (latest record):  
+  - Profits: +23.9% vs 2013  
+  - Sales: +26.6% vs 2013  
+- **Trend**: Consistent yearly growth  
 
-- Mayor crecimiento en 2013: +32.4% beneficios vs 2012
-- En 2014 (último registro):
-  - Beneficios: +23.9% vs 2013
-  - Ventas: +26.6% vs 2013
-- **Tendencia:** Crecimiento anual consistente
+#### **Markets**  
+- **Top 2014**:  
+  - APAC:  
+    - Sales: $1,209,199  
+    - Profit: $140,454  
+  - EU:  
+    - Sales: $1,042,204  
+    - Profit: $128,944  
+- **Highest margin**: Canada (despite lower sales volume)  
 
-#### **Mercados**
-
-- Top 2014:
-    - APAC:
-        - Ventas: $1.209.199
-        - Beneficio: $140.454
-    - EU:
-        - Ventas: $1.042.204
-        - Beneficio: $128.944
-
-- Mayor margen: Canadá (aunque con menores ventas)
-
-#### **Productos**
-
-- Problema: Subcategoría "Tables" (Furniture) con 12.5% pérdidas (-$30,546)
-
-#### **Top performer:**
-
-- Categoría "Technology" ($234.928 beneficio)
-- Subcategoría "Copiers" ($104.049 beneficio, 18.9% margen)
+#### **Products**  
+- **Issue**: "Tables" subcategory (Furniture) with 12.5% losses (-$30,546)  
+- **Top performer**:  
+  - "Technology" category ($234,928 profit)  
+  - "Copiers" subcategory ($104,049 profit, 18.9% margin)  

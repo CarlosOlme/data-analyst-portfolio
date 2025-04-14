@@ -14,7 +14,7 @@ Python 3.9 | pandas | scikit-learn | Seaborn | Matplotlib | Jupyter
 
 ## 💡 Nota
 
-Toda la explicación general y los detalles técnicos están documentados en el [notebook](ChurnAnalysis_(ES).ipynb)
+Toda la explicación general y los detalles técnicos están documentados en el [notebook](ChurnAnalysis(ES).ipynb)
 
 ## 📚 Recursos Adicionales
 

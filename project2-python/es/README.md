@@ -1,4 +1,4 @@
-# 🧠 Predicción del abandono de de clientes (Churn) con Machine Learning
+# 🧠 Predicción del abandono de clientes (Churn) con Machine Learning
 
 **Objetivo**: Se dispone de una base de datos de una empresa de telecomunicaciones. El objetivo es predecir el abandono de clientes (churn) usando Python (scikit-learn) para reducirlo, mantener más clientes y aumentar beneficios.
 

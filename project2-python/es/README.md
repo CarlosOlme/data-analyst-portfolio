@@ -14,8 +14,7 @@ Python 3.9 | pandas | scikit-learn | Seaborn | Matplotlib | Jupyter
 
 ## 💡 Nota
 
-Toda la explicación general y los detalles técnicos están documentados en el notebook
-
+Toda la explicación general y los detalles técnicos están documentados en el [notebook](ChurnAnalysis(ES).ipynb)
 ## 📚 Recursos Adicionales
 
 Dataset original: [https://www.kaggle.com/datasets/blastchar/telco-customer-churn]

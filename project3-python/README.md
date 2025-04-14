@@ -1,4 +1,4 @@
-# 🌍 Customer Churn Prediction with Machine Learning / Predicción del abandono de clientes (Churn) con Machine Learning
+# 🌍 Online Shopping Behavior Analysis Project / Predicción del abandono de clientes (Churn) con Machine Learning
 
 Selecciona tu idioma / Select your language:
 

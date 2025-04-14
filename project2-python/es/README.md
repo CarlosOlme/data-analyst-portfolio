@@ -11,3 +11,12 @@
 ## 🛠️ Tecnologías
 ```python
 Python 3.9 | pandas | scikit-learn | Seaborn | Matplotlib | Jupyter
+```
+
+## 📚 Recursos Adicionales
+
+Dataset original: [https://www.kaggle.com/datasets/blastchar/telco-customer-churn]
+
+## 💡 Nota
+
+Toda la explicación general y los detalles técnicos están documentados en el notebook

@@ -2,7 +2,7 @@
 
 Selecciona tu idioma / Select your language:
 
-- [English Version](/en/README.md) 🇬🇧  
+- [English Version](/project2-python/en/README.md) 🇬🇧  
 - [Versión en español](/es/README.md) 🇪🇸  
 
 ---

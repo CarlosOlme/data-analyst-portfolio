@@ -28,7 +28,7 @@
 - 5+ automated KPIs using DAX
 - [View project](/project1-powerbi/README.md)
 
-#### 2. Customer Churn Prediction in Telecom (Machine Learning)
+#### 2. Customer Churn Prediction in Telecom Company (Machine Learning)
 **Objective**: Model to reduce and prevent customer churn  
 **Key findings**:
 - Best model: AdaBoost (81.49% accuracy)
@@ -72,7 +72,7 @@
 - 5+ KPIs automatizados con DAX
 - [Ver proyecto](/project1-powerbi/README.md)
 
-#### 2. Predicción del Abandono de Clientes en Telecomunicaciones (Machine Learning)
+#### 2. Predicción del Abandono de Clientes en Empresa de Telecomunicaciones (Machine Learning)
 **Objetivo**: Modelo para reducir el abandono de clientes y prevenirlo  
 **Hallazgos clave**:
 - Mejor modelo: AdaBoost (81.49% accuracy)

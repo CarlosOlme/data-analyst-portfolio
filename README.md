@@ -39,7 +39,10 @@
 #### 3. Online Shopping Behavior Analysis (Python)
 **Key findings**:
 - Gender differences in preferences (Clothing vs Electronics)
-- 4 critical areas to improve conversion  
+- Critical areas:
+  - Product quality (max priority)
+  - Detailed descriptions
+  - High quality images   
 - [View Project](/project3-python/README.md)
 
 ### 💡 Note
@@ -83,7 +86,10 @@
 #### 3. Análisis de Comportamiento en Compra Online (Python)
 **Hallazgos clave**:
 - Diferencias de género en preferencias (Ropa vs Electrónicos)
-- 4 áreas críticas para mejorar conversión  
+- Areas críticas:
+  - Calidad de productos (prioridad máxima)
+  - Descripciones detalladas
+  - Imágenes de alta calidad  
 - [Ver Proyecto](/project3-python/README.md)
 
 ### 💡 Nota

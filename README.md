@@ -1,4 +1,50 @@
-# 📊 Data Analyst Portfolio
+# 📊 Data Analyst Portfolio / Portafolio de Analista de Datos
+
+🇬🇧 **English Version** | [🇪🇸 Versión en Español](#versión-en-español)
+
+¡Welcome to my data analysis portfolio! Here you'll find projects demonstrating my skills in visualization, machine learning, and business analysis.
+
+## 🛠️ Key Skills
+- **Languages**: Python (pandas, NumPy, scikit-learn), SQL
+- **Visualization**: Power BI, Matplotlib, Seaborn
+- **Machine Learning**: Supervised models, basic NLP
+- **Analysis**: Data storytelling, business metrics
+
+## 📂 Featured Projects
+
+### 1. Sales Dashboard (Power BI)
+**Objective**: Interactive dashboard for tracking commercial KPIs  
+**Achievements**:
+- Year-over-year sales comparison
+- Detailed analysis of most profitable products and markets
+- 5+ automated KPIs using DAX
+- [View project](/project1-powerbi/README.md)
+
+### 2. Customer Churn Prediction in Telecom (Machine Learning)
+**Objective**: Model to reduce and prevent customer churn  
+**Key findings**:
+- Best model: AdaBoost (81.49% accuracy)
+- 3 key variables affecting prediction
+- Linear models performed exceptionally well
+- [View Project](/project2-python/README.md)
+
+### 3. Online Shopping Behavior Analysis (Python)
+**Key findings**:
+- Gender differences in preferences (Clothing vs Electronics)
+- 4 critical areas to improve conversion  
+- [View Project](/project3-python/README.md)
+
+## 💡 Note
+- **Fully documented code with step-by-step explanations**
+
+## 📬 Contact
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/carlos-olmeda-gerena-7600b0244)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-red)](carlosolme05@gmail.com)
+
+---
+
+<a id="versión-en-español"></a>
+# 📊 Portafolio de Analista de Datos
 
 ¡Bienvenido a mi portafolio de análisis de datos! Aquí encontrarás proyectos que demuestran mis habilidades en visualización, machine learning y análisis de negocio.
 
@@ -18,7 +64,7 @@
 - 5+ KPIs automatizados con DAX
 - [Ver proyecto](/project1-powerbi/README.md)
 
-### 2. Predicción del Abandono de Clientes en una Empresa de Telecomunicaciones (Machine Learning)
+### 2. Predicción del Abandono de Clientes en Telecomunicaciones (Machine Learning)
 **Objetivo**: Modelo para reducir el abandono de clientes y prevenirlo  
 **Hallazgos clave**:
 - Mejor modelo: AdaBoost (81.49% accuracy)
@@ -33,8 +79,10 @@
 - [Ver Proyecto](/project3-python/README.md)
 
 ## 💡 Nota
-- **Código documentado con explicaciones paso a paso** 
+- **Código documentado con explicaciones paso a paso**
 
 ## 📬 Contacto
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/carlos-olmeda-gerena-7600b0244)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue)](https://www.linkedin.com/in/carlos-olmeda-gerena-7600b0244)
 [![Email](https://img.shields.io/badge/Email-Contáctame-red)](carlosolme05@gmail.com)
+
+[⬆️ Back to English Version](#english-version)

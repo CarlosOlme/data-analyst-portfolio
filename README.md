@@ -93,5 +93,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue)](https://www.linkedin.com/in/carlos-olmeda-gerena-7600b0244)
 [![Email](https://img.shields.io/badge/Email-Contáctame-red)](carlosolme05@gmail.com)
 
-
-[⬆️ Back to English Version](#english-version)
+<div align="center">
+  <a href="#english">↑ Back to English</a> | 
+  <a href="#español">↑ Volver a Español</a>
+</div>

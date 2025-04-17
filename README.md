@@ -1,4 +1,4 @@
-# 📊 Data Analyst Portfolio / Portafolio de Analista de Datos
+# 📊 Data Analyst Portfolio / Porfolio de Analista de Datos
 
 <div align="center">
   <a href="#english">English</a> | 
@@ -57,7 +57,7 @@
 <a id="español"></a>
 ## 🇪🇸 Versión en Español
 
-¡Bienvenido a mi portafolio de análisis de datos! Aquí encontrarás proyectos que demuestran mis habilidades en visualización, machine learning y análisis de negocio.
+¡Bienvenido a mi porfolio de análisis de datos! Aquí encontrarás proyectos que demuestran mis habilidades en visualización, machine learning y análisis de negocio.
 
 ### 🛠️ Habilidades Clave
 - **Lenguajes**: Python (pandas, NumPy, scikit-learn), SQL
